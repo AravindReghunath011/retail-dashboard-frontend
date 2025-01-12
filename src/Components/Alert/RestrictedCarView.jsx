@@ -4,15 +4,30 @@ import { useEffect, useState } from "react";
 
 const RestrictedCarView = () => {
   const [restrictedCars, setRestrictedCars] = useState([]);
-
+  let [numberOfRestrictedVehicles,setNumberOfRestrictedvehicle] = useState(0)
   const fetchRestrictedCars = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/restrictedCars");
-      setRestrictedCars(response.data);
+      const response = await axios.get("https://retail-dashboard-backend-h3zk.onrender.com/api/restrictedCars");
+      // const response = await axios.get("http://localhost:3000/api/restrictedCars");
+      setRestrictedCars(response.data.data);
     } catch (err) {
       alert("Failed to fetch restricted cars");
     }
   };
+
+  useEffect(()=>{
+    axios.get('https://retail-dashboard-backend-h3zk.onrender.com/api/getRestrictedList').then((response)=>{
+    // axios.get('http://localhost:3000/api/getRestrictedList').then((response)=>{
+      console.log(response.data.data,'data')
+      setData(response.data.data)
+      console.log(data,'data')
+      let car = response.data.data.filter(obj=>
+        obj.type !== "person_id")
+      console.log(car,'card')
+      setNumberOfRestrictedvehicle(car.length)
+    }).catch(error=>console.log(error))
+    // console.log(data,'data alerts')
+  },[])
 
   useEffect(() => {
     fetchRestrictedCars();
@@ -28,7 +43,7 @@ const RestrictedCarView = () => {
           alt="Car Icon" 
         />
         {/* Dynamically display the number of restricted cars */}
-        <span className="text-3xl font-bold ml-9">{restrictedCars.length}</span>
+        <span className="text-3xl font-bold ml-9">{numberOfRestrictedVehicles}</span>
       </div>
       <div className="overflow-x-auto">
         <table className="table-auto border-collapse border border-black w-full text-sm text-left text-gray-600">

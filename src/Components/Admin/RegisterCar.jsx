@@ -3,11 +3,14 @@ import React, { useState } from "react";
 import Admin from "./Admin";
 
 const RegisterCar = () => {
+
   const [formData, setFormData] = useState({
     name: "",
     numberPlate: "",
     country: "",
   });
+
+  
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -21,7 +24,8 @@ const RegisterCar = () => {
     e.preventDefault(); // Prevent default form submission behavior
 
     try {
-      const response = await fetch("http://localhost:5000/api/registerCar", {
+      // const response = await fetch("http://localhost:3000/api/registerCar", {
+      const response = await fetch("https://retail-dashboard-backend-h3zk.onrender.com/api/registerCar", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

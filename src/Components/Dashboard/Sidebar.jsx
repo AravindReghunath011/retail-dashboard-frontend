@@ -54,7 +54,7 @@ const Sidebar = () => {
         <div className="h-screen flex  fixed top-28 left-0 bg-black text-gray-300 transition-all duration-0 group w-16 hover:w-56">
           <div className="flex flex-col flex-grow  space-y-4 hover:space-y-1">
             <NavLink
-              to="/dashboard"
+              to="/"
               className={({ isActive }) =>
                 `flex items-center gap-4 px-4 py-2 ${
                   isActive

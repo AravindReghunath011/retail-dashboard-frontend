@@ -62,7 +62,8 @@ const RestrictPerson = () => {
     const images = Object.values(uploadedImages).filter(Boolean); // Include only uploaded images
 
     try {
-      const response = await fetch("http://localhost:5000/api/restrictPerson", {
+      // const response = await fetch("http://localhost:3000/api/restrictPerson", {
+      const response = await fetch("https://retail-dashboard-backend-h3zk.onrender.com/api/restrictPerson", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
