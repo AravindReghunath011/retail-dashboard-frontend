@@ -49,7 +49,7 @@ const RestrictedCar = () => {
       <div className="flex justify-center items-end space-x-48 mb-4">
         <div className="flex flex-col items-center">
           <span className="font-bold text-lg">Car</span>
-          <img className="w-20 h-20" src="src/assets/car.svg" alt="Car Icon" />
+          <img className="w-20 h-20" src="/car.svg" alt="Car Icon" />
           <span className="font-bold text-2xl">{numberOfRestrictedVehicles}</span>
         </div>
         <button className="border border-black px-4 w-40 h-6 flex justify-center items-center rounded-lg">
