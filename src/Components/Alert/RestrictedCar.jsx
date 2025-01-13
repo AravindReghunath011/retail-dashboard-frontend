@@ -10,7 +10,8 @@ const RestrictedCar = () => {
   
   const [restrictedCarCount, setRestrictedCarCount] = useState(0);
   useEffect(()=>{
-    axios.get('http://localhost:3000/api/getRestrictedList').then((response)=>{
+    // axios.get('http://localhost:3000/api/getRestrictedList').then((response)=>{
+    axios.get('https://retail-dashboard-backend-h3zk.onrender.com/api/getRestrictedList').then((response)=>{
       console.log(response.data.data,'data')
       setData(response.data.data)
       console.log(data,'data')
