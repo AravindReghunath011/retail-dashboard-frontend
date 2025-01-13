@@ -61,7 +61,7 @@ const Employee = ({onClick}) => {
                 <div className="flex flex-col">
                   <img
                     className="h-10 w-10"
-                    src="src/assets/black.svg"
+                    src="/black.svg"
                     alt=""
                   />
                   <span>67</span>
@@ -74,7 +74,7 @@ const Employee = ({onClick}) => {
                 <div className="flex flex-col">
                   <img
                     className="h-10 w-10"
-                    src="src/assets/green.svg"
+                    src="/green.svg"
                     alt=""
                   />
                   <span>82%</span>
@@ -85,7 +85,7 @@ const Employee = ({onClick}) => {
 
               <div className="flex items-center space-x-5">
                 <div className="flex flex-col">
-                  <img className="h-10 w-10" src="src/assets/red.svg" alt="" />
+                  <img className="h-10 w-10" src="/red.svg" alt="" />
                   <span>18%</span>
                   <span>Absance</span>
                 </div>
@@ -115,11 +115,11 @@ const Employee = ({onClick}) => {
             </div>
             <div className="flex space-x-6 ml-20 border border-black p-4 rounded-3xl">
               <div className="flex items-end space-x-3">
-                <img className="h-20 w-20" src="src/assets/man.jpg" alt="" />
+                <img className="h-20 w-20" src="/man.jpg" alt="" />
                 <span className="text-lg font-semibold">42.61%</span>
               </div>
               <div className="flex items-end space-x-3">
-                <img className="h-20 w-20" src="src/assets/woman.jpg" alt="" />
+                <img className="h-20 w-20" src="/woman.jpg" alt="" />
                 <span className="text-lg font-semibold">57.39%</span>
               </div>
             </div>

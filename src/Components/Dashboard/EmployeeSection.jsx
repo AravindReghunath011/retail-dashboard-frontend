@@ -36,7 +36,7 @@ const EmployeeSection = () => {
           <div className="flex space-x-5 ">
             <div className="flex items-center space-x-5">
               <div className="flex flex-col">
-                <img className="h-10 w-10" src="src/assets/black.svg" alt="" />
+                <img className="h-10 w-10" src="/black.svg" alt="" />
                 <span>67</span>
                 <span>Head Count</span>
               </div>
@@ -45,7 +45,7 @@ const EmployeeSection = () => {
 
             <div className="flex items-center space-x-5">
               <div className="flex flex-col">
-                <img className="h-10 w-10" src="src/assets/green.svg" alt="" />
+                <img className="h-10 w-10" src="/green.svg" alt="" />
                 <span>82%</span>
                 <span>Attendance</span>
               </div>
@@ -54,7 +54,7 @@ const EmployeeSection = () => {
 
             <div className="flex items-center space-x-5">
               <div className="flex flex-col">
-                <img className="h-10 w-10" src="src/assets/red.svg" alt="" />
+                <img className="h-10 w-10" src="/red.svg" alt="" />
                 <span>18%</span>
                 <span>Absence</span>
               </div>

@@ -39,7 +39,7 @@ const RestrictedCarView = () => {
       <div className="mb-10">
         <img 
           className="w-24 h-24 mb-6"
-          src="src/assets/car.svg" 
+          src="/car.svg" 
           alt="Car Icon" 
         />
         {/* Dynamically display the number of restricted cars */}

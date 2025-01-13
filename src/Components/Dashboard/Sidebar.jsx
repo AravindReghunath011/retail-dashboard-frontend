@@ -24,7 +24,7 @@ const Sidebar = () => {
           <div className=" h-16 w-screen bg-zinc-200 flex items-center">
             <img
               className="h-14 justify-center flex items-center w-40 fixed right-2 top-1"
-              src="src/assets/vera.jpg"
+              src="/vera.jpg"
               alt=""
             />
             <span className="justify-center items-center ml-10">HELLO</span>

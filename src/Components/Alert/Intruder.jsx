@@ -14,7 +14,7 @@ const Intruder = () => {
         <h1 className="font-semibold text-xl mb-28">Intruder Alerts</h1>
         <div className="flex justify-center items-end space-x-48 mb-4">
           <div className="flex flex-col  items-center  ">
-            <img className="w-20 h-20" src="src/assets/red.svg" />
+            <img className="w-20 h-20" src="/red.svg" />
             <span className="font-bold text-2xl">7</span>
           </div>
   

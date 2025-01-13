@@ -71,12 +71,12 @@ const Loyal = () => {
       <div className="flex justify-between items-center">
         <div className="flex space-x-10 ml-28">
           <div className="flex flex-col">
-            <img className="h-32 w-32" src="src/assets/orange.svg" alt="" />
+            <img className="h-32 w-32" src="/orange.svg" alt="" />
             <span className="font-semibold">New Customer</span>
             <span className="font-bold text-xl">42.61%</span>
           </div>
           <div className="flex flex-col">
-            <img className="h-32 w-32" src="src/assets/greenn.svg" />
+            <img className="h-32 w-32" src="/greenn.svg" />
             <span className="font-semibold text-">Repeated Customer</span>
             <span className="font-bold text-xl">42.61%</span>
           </div>

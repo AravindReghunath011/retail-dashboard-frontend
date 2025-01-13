@@ -30,13 +30,13 @@ const Customer = () => {
           </div>
           <div className="flex justify-between mt-10">
             <div className="flex items-end space-x-3">
-              <img className="h-20 w-20" src="src/assets/man.jpg" alt="Man" />
+              <img className="h-20 w-20" src="/man.jpg" alt="Man" />
               <span className="text-lg font-semibold">42.61%</span>
             </div>
             <div className="flex items-end space-x-3">
               <img
                 className="h-20 w-20"
-                src="src/assets/woman.jpg"
+                src="/woman.jpg"
                 alt="Woman"
               />
               <span className="text-lg font-semibold">57.39%</span>

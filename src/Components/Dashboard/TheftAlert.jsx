@@ -9,11 +9,11 @@ const TheftAlert = () => {
       </div>
       <div className="flex space-x-10">
         <div>
-          <img className="h-48 w-48 rounded-3xl" src="src/assets/thief.jpg" />
+          <img className="h-48 w-48 rounded-3xl" src="/thief.jpg" />
         </div>
         <div>
           <h1 className="mb-4 font-semibold">Total 6</h1>
-          <img className="h-14 w-14 mb-4" src="src/assets/bell.svg" />
+          <img className="h-14 w-14 mb-4" src="/bell.svg" />
           <h1 className=" font-semibold">Zone:00</h1>
           <h1 className=" font-semibold">Time:00:00:00</h1>
           <h1 className="font-semibold">Date:00/00/00</h1>

@@ -14,7 +14,7 @@ const Fire = () => {
         <h1 className="font-semibold text-xl mb-28">Fire Alerts</h1>
         <div className="flex justify-center items-end space-x-40 mb-4">
           <div className=" ">
-            <img className="w-20 h-20" src="src/assets/fire.svg" />
+            <img className="w-20 h-20" src="/fire.svg" />
            
           </div>
   

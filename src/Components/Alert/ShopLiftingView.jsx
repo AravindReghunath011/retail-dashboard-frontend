@@ -5,7 +5,7 @@ const ShopLiftingView = () => {
   
         <div className="">
           <div className="flex flex-col space-y- ml-10 mb-10 ">
-            <img className="w-20 h-20 " src="src/assets/red.svg" />
+            <img className="w-20 h-20 " src="/red.svg" />
             <span className="font-bold text-2xl ml-8">2</span>
           </div>
   

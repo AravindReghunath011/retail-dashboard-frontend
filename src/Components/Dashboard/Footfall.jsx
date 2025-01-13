@@ -23,11 +23,11 @@ const Footfall = () => {
         </div>
         <div className="flex justify-between mt-10">
           <div className="flex items-end space-x-3">
-            <img className="h-20 w-20" src="src/assets/man.jpg" alt="" />
+            <img className="h-20 w-20" src="/man.jpg" alt="" />
             <span className="text-lg font-semibold">42.61%</span>
           </div>
           <div className="flex items-end space-x-3">
-            <img className="h-20 w-20" src="src/assets/woman.jpg" alt="" />
+            <img className="h-20 w-20" src="/woman.jpg" alt="" />
             <span className="text-lg font-semibold">57.39%</span>
           </div>
         </div>
